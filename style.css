@@ -58,7 +58,9 @@ body{
 
 
 
-
+.image-header{
+    width: 700px;
+}
 .block-green{
     width: 620px;
     height: 470px;
@@ -351,7 +353,17 @@ body{
     
 }
 
+.container-input1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 140px;
+
+}   
+
 .container-input{
+
+    width: 1200px;
+    padding-bottom: 53px;
     display: flex;
     justify-content: center;
     margin-top: 100px;
@@ -381,7 +393,7 @@ body{
 
 .input-email{
     width: 471px;
-    height: 47px;
+    height: 67px;
     position: relative;
     border-radius: 10px;
     padding-left: 20px;
@@ -408,7 +420,14 @@ body{
     margin-top: 50px;
     display: flex;
     flex-direction: column;
+    position: relative;
     
+}
+
+.button-form{
+    position: absolute;
+    left: 327px;
+    top:7px;
 }
 
 .container-all-furn{
@@ -513,4 +532,278 @@ body{
     color: #808080;
     margin-top: 14px;
 
+}
+
+
+.container-custom{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 140px;
+    margin-bottom: 140px;
+
+}
+
+
+.circle{
+    width: 492px;
+    height: 492px;
+    border-radius: 50%;
+    background-color: #244D4D;
+
+    position: relative;
+}
+
+.image-custom{
+    position: absolute;
+    left: 131px;
+    
+}
+
+
+.bold-custom{
+    font-size: 32px;
+    color: #244D4D;
+    font-weight: bold;
+
+}
+
+.description-custom{
+    color: #383738;
+    font-weight: 600;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+
+.block-user{
+    display: flex;
+    margin-top: 30px;
+    
+
+}
+
+.username{
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.balls{
+    font-size: 14px;
+    font-weight: normal;
+
+}
+
+
+
+
+.bi-star-fill{
+    color: #FFB624;
+    margin-top: 6px;
+    
+}
+.info-user{
+    margin-left: 10px;
+
+}
+
+
+.container-footer{
+    background-color:#305F64 ;
+}
+
+
+.container-blocks{
+    display: flex;
+    justify-content: space-around;
+    padding-top:  80px;
+    margin-left: 89px;
+
+}
+
+
+
+.logo-footer{
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+
+}
+
+.description-footer{
+    font-size: 16px;
+    margin-top: 30px;
+    font-weight: 600;
+    color: #ffffff86;
+    
+}
+
+
+.software-icon{
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+
+
+
+.icons-block{
+    margin-top: 21px;
+
+}
+.bi{
+    margin-right: 15px;
+    
+}
+
+.block-circle{
+    width: 25px;
+    height:25px;
+    border-radius: 50%;
+    background-color: #fff;
+    
+    
+    
+}
+
+
+.first{
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+
+.itemfooter{
+    color: #ffffff86;
+    margin-top: 16px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.itemfooter2{
+    color: #ffffff86;
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.input-footer{
+    position: relative;
+
+}
+
+
+.inputfooter{
+    width: 253px;
+    height: 48px;
+    border-radius: 15px;
+    border: none;
+    padding-left: 22px;
+    margin-top: 40px;
+
+}
+
+
+
+.button-footer{
+    width: 28px;
+    height: 28px;
+    background-color: #FFB624;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 10px;
+    left:233px ;
+}
+
+.email-btn{
+    width: 16px;
+    height: 16px;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+.line-footer{
+    width: 100%;
+    height: 2px;
+    background-color: #506E71;
+    margin-top:  60px;
+
+}
+
+.text-footer{
+    text-align: center;
+    font-size: 18px;
+    color: #ffffffad;
+    padding: 20px 20px;
+}
+
+@media (max-width:1245px) {
+    .container-down{
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+    .container-company{
+        flex-wrap: wrap;
+    }
+
+    .container-about{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .left-block-about{
+        margin-bottom: 20px;
+    }
+
+    .section{
+        flex-direction: column;
+        
+    }
+
+    .blockslide{
+        display: none;
+    }
+
+    .block-product{
+        margin-bottom: 30px;
+    }
+
+    .container-room{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .container-custom{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .left-custom{
+        margin-bottom: 50px;
+    }
+    
+    .container-input{
+        width: 900px;
+    }
+    
+}
+
+
+@media (max-width:768px) {
+    
 }
