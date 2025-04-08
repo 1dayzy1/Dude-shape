@@ -805,5 +805,90 @@ body{
 
 
 @media (max-width:768px) {
+    .img-about{
+    width: 350px;
+    }
+
+     .name-room{
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .name-first{
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .green-block{
+        width: 350px;
+    }
+
+    .image-room{
+        width: 350px;
+       top: 50px;
+       
+       
+    }
+
+    .list-header{
+        display: none;
+    }
+
+    .block-green{
+        width: 350px;
+        height: 300px;
+        left: 20px;
+        
+    }
+
+
+    .image-header{
+        width: 420px;
+    }
+
+    .text-header{
+        font-size: 26px;
+    }
+
+    .select-room{
+        width: 180px;
+    }
+
+    .circle{
+        width: 420px;
+        height: 420px;
+    }
+
+    .img-custom{
+        width: 360px;
+        
+    }
+
+    .image-custom{
+        left: 40px;
+    }
+
+    .container-input{
+        width: 800px;
+    }
+
+    .text-input{
+        font-size: 24px;    
+    }
+    .input-email{
+        width: 371px;
+    }
+
+    .button-form{
+        left: 250px;
+    }
+
+    .container-forms{
+        justify-content: center;
+    }
     
-}
+
+    .container-blocks{
+        flex-direction: column;
+    }
+}   
